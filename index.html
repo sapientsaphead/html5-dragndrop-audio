@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML5 Audio Player</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/justified-nav.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="masthead">
+				<h2 class="text-muted">HTML5 Audio</h2>
+				<h3 id="controlsLabel" class="text-muted">Playback Speed</h3>
+				<ul id="controls" class="nav nav-justified">
+					<li>
+						<a href="javascript:void(0);" data-speed=".5">0.5x</a>
+					</li>
+					<li class="active">
+						<a href="javascript:void(0);" data-speed="1">1x</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-speed="1.33">1.33x</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-speed="1.5">1.5x</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-speed="1.66">1.66x</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-speed="1.75">1.75x</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" data-speed="2">2x</a>
+					</li>
+				</ul>
+			</div>
+			<div id="mainContent" class="row">
+				<div id="dropZone" class="col-2">
+					<div id="subDiv">
+						<p id="label">Drop files here</p>
+					</div>
+				</div>
+
+				<div id="player" class="col-10">
+					<output id="output"></output>
+				</div>
+			</div>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

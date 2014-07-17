@@ -1,0 +1,39 @@
+
+#dropZone {
+    height: 250px;
+    width: 250px;
+    border: 1px #333 solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+   /* position: relative;
+     Janky fix for now 
+    top: -20px;*/
+}
+
+#subDiv {
+	height: 230px;
+	width: 230px;
+	margin: auto;
+	border: 1px #333 dashed;
+	border-radius: 10px;
+}
+
+#subDiv p {
+	margin-top: 100px;
+}
+
+#player {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+#controls {
+	display: none;
+}
+
+#controlsLabel {
+    display: none;
+}
